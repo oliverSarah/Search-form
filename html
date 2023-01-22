@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <h1 id="title" class="text-center">Form</h1>
+    <p id="description">Thank you for taking the time to help us</p>
+
+    <form id="survey-form">
+
+      <div class="form-group">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" required placeholder="Enter your name"></input>
+      </div>
+
+      <div class="form-group">
+        <label id="email-label">Email</label>
+          <input id="email" type="email" required placeholder="Enter your email">
+      </input>
+      </div>
+
+
+<div class="form-group">
+      <label id="number-label">Age</label>
+      <input id="number" type="number" placeholder="Age" min="18" max="100"></input>
+      </div>
+
+      <div class="form-group">
+        <p>What type of game do you most identify with?</p>
+      <select id="dropdown" name="dropdown" required>
+        <option value="">Select One</option>
+        <option value="MMORPG">MMORPG</option>
+        <option value="MOBA">MOBA</option>
+        <option value="RPG">RPG</option>
+        <option value="Arcade">Arcade</option>
+      </select>
+      </div>
+
+<div class="form-group">
+  <p>In a game would you choose..</p>
+  <input name="user-choise" value="SinglePlayer" type="radio">Singleplayer</input>
+  <input name="user-choise" value="MultiPlayer" type="radio">Multiplayer</input>
+</div>
+
+<div class="form-group">
+  <p>Which of these games have you played?</p>
+  <input type="checkbox" value="LoL">League of Legends</input>
+  <input type="checkbox" value="WoW">World of Warcraft</input>
+  <input type="checkbox" value="Dota">Dota</input>
+  <input type="checkbox" value="Albion">Albion Online</input>
+  <input type="checkbox" value="Final-fantasy">Final Fantasy</input>
+  <input type="checkbox" value="Lost-ark">Lost Ark</input>
+  <input type="checkbox" value="pac-man">Pac-Man</input>
+  <input type="checkbox" value="metal-slug">Metal Slug</input>
+  <input type="checkbox" value="street-fighter">Street Fighter</input>
+</div>
+
+<div class="form-group">
+  <p>Any comments or suggestions?</p>]
+<textarea id="comments" name="comment" placeholder="enter your comment here..."></textarea>
+</div>
+
+<div class="form-group">
+  <button type="submit" id="submit">Submit</button>
+  </div>
+
+    </form>
+  </head>
+</html>
